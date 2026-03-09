@@ -15,6 +15,8 @@ export async function cadastro(req, res){
         senha: req.body.senha,
         numero: req.body.numero,
         datanasc: req.body.datanasc
+
+        
     })
 
     await novousuario.save();
