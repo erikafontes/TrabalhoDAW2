@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const url = "mongodb+srv://mig180506:mMOPHz17Vw7KqtGj@miguel.f4fxnqp.mongodb.net/?retryWrites=true&w=majority&appName=Miguel"
+const url = "mongodb+srv://aluno:aluno@cluster0.diho964.mongodb.net/?appName=Cluster0"
 
 const conexao = await mongoose.connect(url)
 export default mongoose
